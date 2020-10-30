@@ -1,0 +1,27 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300;1,400;1,700&display=swap');
+
+/* Variables */
+:root {
+    --white: #FFFFFF;
+    --gray1: rgba(255, 255, 255, 0.5);
+    --gray1: #686868; 
+    --yellow:#f8dc6a;
+    --green: #016d38;
+    --fw300: 300;
+    --fw400: 400;
+
+    --h1: 2rem;
+    --text: 1.2rem;
+}
+/* Variables */
+
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: var(--fw400);
+    font-size: var(--text);
+    text-transform: uppercase;
+    font-style: italic;
+    text-size-adjust:  100%;
+    
+}
