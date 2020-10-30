@@ -10,18 +10,74 @@
     --green: #016d38;
     --fw300: 300;
     --fw400: 400;
+    --fw700: 700;
 
     --h1: 2rem;
     --text: 1.2rem;
 }
 /* Variables */
 
-html {
+body {
     font-family: 'Roboto Condensed', sans-serif;
-    font-weight: var(--fw400);
-    font-size: var(--text);
-    text-transform: uppercase;
     font-style: italic;
     text-size-adjust:  100%;
     
+}
+
+.title-h1 {
+    color: var(--green);
+    font-weight: var(--fw700);
+    font-size: 2rem;
+
+}
+
+.slider {
+    background-color: var(--green);
+    height: 70vh;
+}
+
+.text--slider{
+    color: var(--white);
+}
+
+.text--slider p{
+    font-size: 3rem;
+    color: var(--white);
+    text-align: center;
+    line-height: 1.2;
+    font-weight: var(--fw700);
+}
+
+.text--slider p span{
+    font-weight: var(--fw400);
+    font-size: 2rem;
+    color: var(--white);
+    text-align: center;
+}
+
+.btn--box {
+}
+
+.out-box{
+    padding: 1rem;
+}
+
+.text-box {
+    padding: 1.2rem;
+    border: 1px solid var(--green);
+    border-radius: .5rem;
+}
+
+.out-box span {
+    text-transform: uppercase;
+    font-family: 1.2rem;
+    color: var(--green);
+}
+
+.out-box p {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: var(--fw700);
+    color: var(--green);
+    font-family: 1.2rem;
 }
